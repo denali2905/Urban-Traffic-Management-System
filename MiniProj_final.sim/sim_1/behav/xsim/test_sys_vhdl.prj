@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MiniProj_final.srcs/sources_1/new/Traffic_control_system.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count1min15sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count_15sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count_25sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count_2sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count_30sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count_4sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count_5sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/count_8sec.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/counter.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/new/display.vhd" \
+"../../../../MiniProj_final.srcs/sources_1/imports/Users/denal/Downloads/ECNG3016 VHDL Lab Files/ECNG3016 VHDL Lab Files/time multiplexing/frequency_divider.vhd" \
+"../../../../MiniProj_final.srcs/sim_1/new/test_sys.vhd" \
+
+# Do not sort compile order
+nosort

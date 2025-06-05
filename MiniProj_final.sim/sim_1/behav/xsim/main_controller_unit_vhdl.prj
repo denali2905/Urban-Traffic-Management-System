@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../3016_MiniProj.srcs/sources_1/new/count_8sec.vhd" \
+"../../../../3016_MiniProj.srcs/sources_1/new/counter.vhd" \
+"../../../../3016_MiniProj.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd" \
+"../../../../3016_MiniProj.srcs/sources_1/imports/Users/denal/Downloads/ECNG3016 VHDL Lab Files/ECNG3016 VHDL Lab Files/time multiplexing/frequency_divider.vhd" \
+"../../../../3016_MiniProj.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd" \
+
+# Do not sort compile order
+nosort

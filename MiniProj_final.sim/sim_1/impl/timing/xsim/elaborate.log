@@ -1,0 +1,11 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 9476cbe891954bada971433c17a8e46a --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot test_sys_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.test_sys xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-718] formal port <t1min> does not exist in entity <main_controller_unit>.  Please compare the definition of block <main_controller_unit> to its component declaration and its instantion to detect the mismatch. [C:/Xilinx/Vivado/2019.2/bin/3016_MiniProj/3016_MiniProj.srcs/sim_1/new/test_sys.vhd:42]
+ERROR: [VRFC 10-718] formal port <t8sec> does not exist in entity <main_controller_unit>.  Please compare the definition of block <main_controller_unit> to its component declaration and its instantion to detect the mismatch. [C:/Xilinx/Vivado/2019.2/bin/3016_MiniProj/3016_MiniProj.srcs/sim_1/new/test_sys.vhd:43]
+ERROR: [VRFC 10-718] formal port <t1min_en> does not exist in entity <main_controller_unit>.  Please compare the definition of block <main_controller_unit> to its component declaration and its instantion to detect the mismatch. [C:/Xilinx/Vivado/2019.2/bin/3016_MiniProj/3016_MiniProj.srcs/sim_1/new/test_sys.vhd:44]
+ERROR: [VRFC 10-718] formal port <t8sec_en> does not exist in entity <main_controller_unit>.  Please compare the definition of block <main_controller_unit> to its component declaration and its instantion to detect the mismatch. [C:/Xilinx/Vivado/2019.2/bin/3016_MiniProj/3016_MiniProj.srcs/sim_1/new/test_sys.vhd:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
