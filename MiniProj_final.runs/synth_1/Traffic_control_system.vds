@@ -1,0 +1,474 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri May 17 17:42:39 2024
+# Process ID: 9060
+# Current directory: C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.runs/synth_1
+# Command line: vivado.exe -log Traffic_control_system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Traffic_control_system.tcl
+# Log file: C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.runs/synth_1/Traffic_control_system.vds
+# Journal file: C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Traffic_control_system.tcl -notrace
+Command: synth_design -top Traffic_control_system -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25440 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 949.301 ; gain = 234.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Traffic_control_system' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/Traffic_control_system.vhd:53]
+INFO: [Synth 8-3491] module 'datapath' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:34' bound to instance 'data_path' of component 'datapath' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/Traffic_control_system.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:71]
+INFO: [Synth 8-3491] module 'frequency_divider' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Users/denal/Downloads/ECNG3016 VHDL Lab Files/ECNG3016 VHDL Lab Files/time multiplexing/frequency_divider.vhd:11' bound to instance 'freqdiv' of component 'frequency_divider' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'frequency_divider' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Users/denal/Downloads/ECNG3016 VHDL Lab Files/ECNG3016 VHDL Lab Files/time multiplexing/frequency_divider.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'frequency_divider' (1#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Users/denal/Downloads/ECNG3016 VHDL Lab Files/ECNG3016 VHDL Lab Files/time multiplexing/frequency_divider.vhd:17]
+INFO: [Synth 8-3491] module 'count_1min15sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count1min15sec.vhd:34' bound to instance 'signal_1min15sec' of component 'count_1min15sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'count_1min15sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count1min15sec.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'count_1min15sec' (2#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count1min15sec.vhd:41]
+INFO: [Synth 8-3491] module 'count_1min' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/counter.vhd:34' bound to instance 'signal_1min' of component 'count_1min' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'count_1min' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/counter.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'count_1min' (3#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/counter.vhd:41]
+INFO: [Synth 8-3491] module 'count_30sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_30sec.vhd:35' bound to instance 'signal_30sec' of component 'count_30sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'count_30sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_30sec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'count_30sec' (4#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_30sec.vhd:42]
+INFO: [Synth 8-3491] module 'count_25sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_25sec.vhd:35' bound to instance 'signal_25sec' of component 'count_25sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'count_25sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_25sec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'count_25sec' (5#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_25sec.vhd:42]
+INFO: [Synth 8-3491] module 'count_15sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_15sec.vhd:35' bound to instance 'signal_15sec' of component 'count_15sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'count_15sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_15sec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'count_15sec' (6#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_15sec.vhd:42]
+INFO: [Synth 8-3491] module 'count_8sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_8sec.vhd:35' bound to instance 'signal_8sec' of component 'count_8sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'count_8sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_8sec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'count_8sec' (7#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_8sec.vhd:42]
+INFO: [Synth 8-3491] module 'count_5sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_5sec.vhd:35' bound to instance 'signal_5sec' of component 'count_5sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'count_5sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_5sec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'count_5sec' (8#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_5sec.vhd:42]
+INFO: [Synth 8-3491] module 'count_4sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_4sec.vhd:35' bound to instance 'signal_4sec' of component 'count_4sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'count_4sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_4sec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'count_4sec' (9#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_4sec.vhd:42]
+INFO: [Synth 8-3491] module 'count_2sec' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_2sec.vhd:35' bound to instance 'signal_2sec' of component 'count_2sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'count_2sec' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_2sec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'count_2sec' (10#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/count_2sec.vhd:42]
+INFO: [Synth 8-3491] module 'display' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/display.vhd:34' bound to instance 'lights' of component 'display' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'display' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/display.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'display' (11#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/display.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (12#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd:71]
+INFO: [Synth 8-3491] module 'main_controller_unit' declared at 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd:30' bound to instance 'controlpath' of component 'main_controller_unit' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/Traffic_control_system.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'main_controller_unit' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd:58]
+WARNING: [Synth 8-614] signal 'nstate' is read in the process but is not in the sensitivity list [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'main_controller_unit' (13#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'Traffic_control_system' (14#1) [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/new/Traffic_control_system.vhd:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1022.367 ; gain = 307.207
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1022.367 ; gain = 307.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1022.367 ; gain = 307.207
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1022.367 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/constrs_1/new/first_const.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sig1s'. [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/constrs_1/new/first_const.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/constrs_1/new/first_const.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sig1s'. [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/constrs_1/new/first_const.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/constrs_1/new/first_const.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/constrs_1/new/first_const.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/constrs_1/new/first_const.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Traffic_control_system_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Traffic_control_system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1134.406 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1134.406 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticpg236-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "light_ns" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "light_en" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'dstate_reg' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd:72]
+WARNING: [Synth 8-327] inferring latch for variable 'nstate_reg' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd:137]
+WARNING: [Synth 8-327] inferring latch for variable 'tstate_reg' [C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.srcs/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd:111]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	  13 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 8     
+	  12 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
+	  13 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module frequency_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     26 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 1     
+Module count_1min15sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module count_1min 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module count_30sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module count_25sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module count_15sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module count_8sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module count_5sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module count_4sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+Module count_2sec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module display 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 6     
+	  12 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module main_controller_unit 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  13 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "data_path/lights/light_ns" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_path/lights/light_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controlpath/tstate_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\controlpath/nstate_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (controlpath/nstate_reg[3]) is unused and will be removed from module Traffic_control_system.
+WARNING: [Synth 8-3332] Sequential element (controlpath/tstate_reg[3]) is unused and will be removed from module Traffic_control_system.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |     7|
+|3     |LUT1   |    28|
+|4     |LUT2   |    10|
+|5     |LUT3   |    34|
+|6     |LUT4   |    30|
+|7     |LUT5   |    26|
+|8     |LUT6   |    29|
+|9     |FDCE   |    56|
+|10    |FDPE   |    14|
+|11    |LD     |     6|
+|12    |LDC    |     2|
+|13    |LDP    |     2|
+|14    |IBUF   |     9|
+|15    |OBUF   |    21|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------+---------------------+------+
+|      |Instance             |Module               |Cells |
++------+---------------------+---------------------+------+
+|1     |top                  |                     |   277|
+|2     |  controlpath        |main_controller_unit |    55|
+|3     |  data_path          |datapath             |   188|
+|4     |    freqdiv          |frequency_divider    |    93|
+|5     |    signal_15sec     |count_15sec          |     9|
+|6     |    signal_1min      |count_1min           |    13|
+|7     |    signal_1min15sec |count_1min15sec      |    18|
+|8     |    signal_25sec     |count_25sec          |    11|
+|9     |    signal_2sec      |count_2sec           |     5|
+|10    |    signal_30sec     |count_30sec          |    12|
+|11    |    signal_4sec      |count_4sec           |     9|
+|12    |    signal_5sec      |count_5sec           |     9|
+|13    |    signal_8sec      |count_8sec           |     9|
++------+---------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1134.406 ; gain = 307.207
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.406 ; gain = 419.246
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1137.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 3 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1137.402 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  LD => LDCE: 3 instances
+  LD => LDCE (inverted pins: G): 3 instances
+  LDC => LDCE: 2 instances
+  LDP => LDPE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 8 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1137.402 ; gain = 714.785
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1137.402 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.runs/synth_1/Traffic_control_system.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Traffic_control_system_utilization_synth.rpt -pb Traffic_control_system_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 17 17:43:06 2024...

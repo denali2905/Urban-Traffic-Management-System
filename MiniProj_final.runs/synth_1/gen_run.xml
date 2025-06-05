@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1715982157">
+  <File Type="PA-TCL" Name="Traffic_control_system.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Traffic_control_system_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Traffic_control_system_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Traffic_control_system.vds"/>
+  <File Type="RDS-UTIL" Name="Traffic_control_system_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Traffic_control_system_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Traffic_control_system.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Traffic_control_system_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Traffic_control_system_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/controlpath.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../u5_test/u5_test.srcs/sources_1/new/controlpath.vhd"/>
+        <Attr Name="ImportTime" Val="1668799804"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count1min15sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MiniProj_HT/MiniProj_HT.srcs/sources_1/new/count1min15sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715837418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_15sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MiniProj_AW/MiniProj_AW.srcs/sources_1/new/count_15sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715885898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_25sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MiniProj_Finalv2/MiniProj_Finalv2.srcs/sources_1/new/count_25sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715962837"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_2sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MiniProj_AW/MiniProj_AW.srcs/sources_1/new/count_2sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715884035"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_30sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MiniProj_Finalv2/MiniProj_Finalv2.srcs/sources_1/new/count_30sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715962616"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_4sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MiniProj_AW/MiniProj_AW.srcs/sources_1/new/count_4sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715886035"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_5sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MiniProj_Finalv2/MiniProj_Finalv2.srcs/sources_1/new/count_5sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715962833"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_8sec.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../3016_MiniProj/3016_MiniProj.srcs/sources_1/new/count_8sec.vhd"/>
+        <Attr Name="ImportTime" Val="1715795439"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../3016_MiniProj/3016_MiniProj.srcs/sources_1/new/counter.vhd"/>
+        <Attr Name="ImportTime" Val="1715780838"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Xilinx/Vivado/2019.2/bin/u5_test/u5_test.srcs/sources_1/new/datapath.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../u5_test/u5_test.srcs/sources_1/new/datapath.vhd"/>
+        <Attr Name="ImportTime" Val="1671066051"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../3016_MiniProj/3016_MiniProj.srcs/sources_1/new/display.vhd"/>
+        <Attr Name="ImportTime" Val="1715835004"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Users/denal/Downloads/ECNG3016 VHDL Lab Files/ECNG3016 VHDL Lab Files/time multiplexing/frequency_divider.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Users/denal/Downloads/ECNG3016 VHDL Lab Files/ECNG3016 VHDL Lab Files/time multiplexing/frequency_divider.vhd"/>
+        <Attr Name="ImportTime" Val="1243287648"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Traffic_control_system.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/Traffic_control_system.vhd"/>
+        <Attr Name="ImportTime" Val="1715918469"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Traffic_control_system"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/first_const.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../3016_MiniProj/3016_MiniProj.srcs/constrs_1/new/first_const.xdc"/>
+        <Attr Name="ImportTime" Val="1715831761"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/first_const.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

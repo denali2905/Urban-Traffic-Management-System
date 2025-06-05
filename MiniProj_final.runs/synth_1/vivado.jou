@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri May 17 17:42:39 2024
+# Process ID: 9060
+# Current directory: C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.runs/synth_1
+# Command line: vivado.exe -log Traffic_control_system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Traffic_control_system.tcl
+# Log file: C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.runs/synth_1/Traffic_control_system.vds
+# Journal file: C:/Xilinx/Vivado/2019.2/bin/MiniProj_Final/MiniProj_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Traffic_control_system.tcl -notrace
